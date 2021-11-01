@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 3dbaebe95f0501b4aa0deaeb1f38a9c8
+timeCreated: 1524243385
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: Ankle.Left
+    100004: Ankle.Right
+    100006: Armature_Skeleton
+    100008: Base
+    100010: Chest
+    100012: Elbow.Left
+    100014: Elbow.Right
+    100016: Fingertip.Left
+    100018: Fingertip.Right
+    100020: Foot.Left
+    100022: Foot.Right
+    100024: Head
+    100026: Hip.Left
+    100028: Hip.Right
+    100030: Knee.Left
+    100032: Knee.Right
+    100034: Male_Skeletal_Femur_Left_Geo_Untitled_075
+    100036: Male_Skeletal_Femur_Right_Geo_Untitled_798
+    100038: Male_Skeletal_Humerus_Left_Geo_Untitled_349
+    100040: Male_Skeletal_Humerus_Right_Geo_Untitled_951
+    100042: Male_Skeletal_Pubic_Symphysis_Geo_Untitled_140
+    100044: Male_Skeletal_Skull_Geo_Untitled_037
+    100046: Male_Skeletal_Sternum_Geo_Untitled_065
+    100048: RootBone
+    100050: Shoulder.Left
+    100052: Shoulder.Right
+    100054: //RootNode
+    100056: Wrist.Left
+    100058: Wrist.Right
+    400000: Abdomen
+    400002: Ankle.Left
+    400004: Ankle.Right
+    400006: Armature_Skeleton
+    400008: Base
+    400010: Chest
+    400012: Elbow.Left
+    400014: Elbow.Right
+    400016: Fingertip.Left
+    400018: Fingertip.Right
+    400020: Foot.Left
+    400022: Foot.Right
+    400024: Head
+    400026: Hip.Left
+    400028: Hip.Right
+    400030: Knee.Left
+    400032: Knee.Right
+    400034: Male_Skeletal_Femur_Left_Geo_Untitled_075
+    400036: Male_Skeletal_Femur_Right_Geo_Untitled_798
+    400038: Male_Skeletal_Humerus_Left_Geo_Untitled_349
+    400040: Male_Skeletal_Humerus_Right_Geo_Untitled_951
+    400042: Male_Skeletal_Pubic_Symphysis_Geo_Untitled_140
+    400044: Male_Skeletal_Skull_Geo_Untitled_037
+    400046: Male_Skeletal_Sternum_Geo_Untitled_065
+    400048: RootBone
+    400050: Shoulder.Left
+    400052: Shoulder.Right
+    400054: //RootNode
+    400056: Wrist.Left
+    400058: Wrist.Right
+    2100000: Male_Skeletal_System_V05_Male_Lower_Limbs_mat
+    2100002: Male_Skeletal_System_V05_Male_Upper_Limbs_mat
+    2100004: Male_Skeletal_System_V05_Male_Skeletal_Pubic_Symphysis_mat
+    2100006: Male_Skeletal_System_V05_Male_Skeletal_Mandible_mat
+    2100008: Male_Skeletal_System_V05_Male_Skeletal_Upper_Central_Incisor_Le
+    2100010: Male_Skeletal_System_V05_Male_Skeletal_spine_mat
+    2100012: Male_Skeletal_System_V05_Male_Skeletal_Skull_mat
+    2100014: Male_Skeletal_System_V05_Male_Skeletal_Intervertabral_Discs_mat
+    2100016: Male_Skeletal_System_V05_Male_Skeletal_Costal_Cartilages_mat
+    2100018: Male_Skeletal_System_V05_Male_Skeletal_Chest_mat
+    4300000: Male_Skeletal_Femur_Left_Geo_Untitled_075
+    4300002: Male_Skeletal_Femur_Right_Geo_Untitled_798
+    4300004: Male_Skeletal_Humerus_Left_Geo_Untitled_349
+    4300006: Male_Skeletal_Humerus_Right_Geo_Untitled_951
+    4300008: Male_Skeletal_Pubic_Symphysis_Geo_Untitled_140
+    4300010: Male_Skeletal_Skull_Geo_Untitled_037
+    4300012: Male_Skeletal_Sternum_Geo_Untitled_065
+    9500000: //RootNode
+    13700000: Male_Skeletal_Femur_Left_Geo_Untitled_075
+    13700002: Male_Skeletal_Femur_Right_Geo_Untitled_798
+    13700004: Male_Skeletal_Humerus_Left_Geo_Untitled_349
+    13700006: Male_Skeletal_Humerus_Right_Geo_Untitled_951
+    13700008: Male_Skeletal_Pubic_Symphysis_Geo_Untitled_140
+    13700010: Male_Skeletal_Skull_Geo_Untitled_037
+    13700012: Male_Skeletal_Sternum_Geo_Untitled_065
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Lower_Limbs_mat
+    second: {fileID: 2100000, guid: b86aa385a5c532b44b8cbfb7403fff09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Skeletal_Chest_mat
+    second: {fileID: 2100000, guid: 7e26c55f578509243a34772542b493ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Skeletal_Costal_Cartilages_mat
+    second: {fileID: 2100000, guid: 1a4d4e02e46103149add5f3d213c842a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Skeletal_Intervertabral_Discs_mat
+    second: {fileID: 2100000, guid: cd365c35808aeb34fa1db06bfb9c4ebe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Skeletal_Mandible_mat
+    second: {fileID: 2100000, guid: dac128ff6a0343d42bee6e0a73bb144e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Skeletal_Pubic_Symphysis_mat
+    second: {fileID: 2100000, guid: 0f952fb0fdbf24b419880a5757c3e6e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Skeletal_Skull_mat
+    second: {fileID: 2100000, guid: 40e9863dee344834b815a96b43cfcabc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Skeletal_Upper_Central_Incisor_Le
+    second: {fileID: 2100000, guid: 4c5bbdd9ed0e04d48927b6a30e447690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Skeletal_spine_mat
+    second: {fileID: 2100000, guid: 04202c96a111f4a439454a9a34dda652, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_Skeletal_System_V05_Male_Upper_Limbs_mat
+    second: {fileID: 2100000, guid: 3e197edf796adbc41b51b2403a5b8581, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

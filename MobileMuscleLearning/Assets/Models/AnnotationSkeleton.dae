@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.77.0 commit date:2016-04-05, commit time:18:12, hash:abf6f08</authoring_tool>
+    </contributor>
+    <created>2017-04-06T22:00:44</created>
+    <modified>2017-04-06T22:00:44</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Material-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Material-material" name="Material">
+      <instance_effect url="#Material-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane-mesh" name="Plane">
+      <mesh>
+        <source id="Plane-mesh-positions">
+          <float_array id="Plane-mesh-positions-array" count="345">0 -1 0 0 0.9999998 0 0 0 0 -1 -0.5000001 0 1 -0.5 0 0 0.5 0 0 -0.5 0 0.5 -0.5000001 0 -0.5 -0.5 0 0.25 1 0 0 0.75 0 0 -0.25 0 0.25 0 0 -0.25 1 0 0 0.25 0 0 -0.75 0 -0.25 0 0 0.25 -0.5 0 0.7500001 -0.5 0 -0.75 -0.5 0 -0.25 -0.5 0 -0.25 0.5 0 0.25 0.5000001 0 0.25 0.25 0 0.25 0.7500001 0 -0.25 0.25 0 0.25 -0.25 0 -0.25 -0.25 0 -0.25 0.75 0 -0.125 -1 -6.14356e-5 0.125 1 0 0 0.8749999 0 0 -0.125 0 0.125 0 0 -1 -0.375 0 1 -0.6250001 0 0 0.375 0 0 -0.6250001 0 0.5 -0.6250001 0 0.125 -0.5 0 0.6250001 -0.5000001 0 -0.4999999 -0.6250001 0 -0.875 -0.5000001 0 -0.375 -0.5000001 0 0.125 0.5 0 -1 -0.6250001 0 1 -0.375 0 0 0.6250001 0 0 -0.375 0 0.125 -1 6.14357e-5 -0.125 1 0 0 0.125 0 0 -0.875 0 -0.125 0 0 0.5 -0.3750001 0 0.375 -0.5000001 0 0.8750001 -0.5 0 -0.5 -0.375 0 -0.625 -0.5 0 -0.125 -0.5 0 -0.125 0.5 0 0.25 0.375 0 0.25 0.125 0 0.125 0.25 0 0.25 0.8750001 0 0.25 0.6250001 0 0.125 0.7500001 0 -0.25 0.375 0 -0.25 0.125 0 -0.125 0.25 0 -0.25 -0.6250001 0 -0.125 -0.75 -6.14357e-5 -0.7499999 -0.625 0 -0.75 -0.375 0 0.7500001 -0.6250001 0 0.25 -0.6250001 0 0.125 -0.75 6.14357e-5 0.25 -0.125 0 0.25 -0.375 0 0.125 -0.25 0 0.7500001 -0.3750001 0 -0.25 -0.125 0 -0.25 -0.375 0 -0.125 -0.25 0 -0.25 0.875 0 -0.25 0.625 0 -0.125 0.75 0 -0.125 0.6250001 0 -0.125 -0.375 0 -0.375 -0.375 0 0.8750001 -0.375 0 0.6250001 -0.3750001 0 0.375 -0.375 0 0.125 -0.375 0 0.125 -0.125 0 0.125 -0.875 6.14357e-5 0.125 -0.6250001 2.04811e-5 0.6250001 -0.6250001 0 -0.625 -0.375 0 -0.875 -0.375 0 -0.875 -0.6250001 0 -0.125 -0.875 -6.14356e-5 -0.375 -0.6250001 0 -0.125 0.125 0 0.125 0.6250001 0 0.125 0.875 0 0.125 0.125 0 0.125 0.375 0 -0.125 0.375 0 -0.125 -0.6250001 -2.91165e-5 -0.625 -0.625 0 0.8750001 -0.6250001 0 0.375 -0.6250001 0 -0.125 -0.125 0 -0.125 0.875 0</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-positions-array" count="115" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-normals">
+          <float_array id="Plane-mesh-normals-array" count="474">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -2.32932e-4 -2.32933e-4 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -4.91486e-4 0 0.9999999 1.66307e-7 0 1 0 0 1 1.63808e-4 1.63822e-4 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -4.91485e-4 0 0.9999999 -4.91485e-4 0 0.9999999 -1.63848e-4 0 1 -4.91485e-4 0 0.9999999 0 0 1 0 0 1 0 0 1 0 0 1 1.51406e-7 0 1 0 0 1 -4.91485e-4 0 0.9999999 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 2.32935e-4 0 1 -4.91485e-4 -2.58554e-4 0.9999999 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 1.51406e-7 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -4.91486e-4 0 0.9999999 -4.91485e-4 0 0.9999999 0 1.63822e-4 1 -1.63849e-4 3.27637e-4 1 0 0 1 0 0 1 0 0 1 1.36505e-7 0 1 0 0 1 -4.91485e-4 0 0.9999999 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -2.32933e-4 1 -2.32932e-4 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-normals-array" count="158" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane-mesh-vertices">
+          <input semantic="POSITION" source="#Plane-mesh-positions"/>
+        </vertices>
+        <polylist material="Material-material" count="164">
+          <input semantic="VERTEX" source="#Plane-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>114 0 1 0 50 0 32 1 53 1 113 1 38 2 55 2 112 2 35 3 56 3 111 3 110 4 8 4 58 4 37 5 59 5 109 5 36 6 60 6 108 6 61 7 44 7 107 7 62 8 63 8 106 8 64 9 30 9 105 9 65 10 66 10 104 10 51 11 69 11 103 11 70 12 43 12 102 12 52 13 71 13 101 13 72 14 42 14 100 14 74 15 40 15 97 15 75 16 39 16 96 16 77 17 33 17 94 17 78 18 79 18 93 18 48 19 83 19 88 19 47 20 86 20 87 20 87 21 28 21 85 21 60 22 85 22 21 22 5 23 87 23 60 23 88 24 27 24 82 24 59 25 82 25 20 25 6 26 88 26 59 26 8 27 89 27 57 27 20 28 89 28 43 28 56 29 80 29 18 29 4 30 90 30 56 30 7 31 91 31 54 31 18 32 91 32 40 32 17 33 92 33 78 33 55 34 54 34 92 34 48 35 79 35 11 35 6 36 93 36 48 36 17 37 93 37 39 37 94 38 2 38 32 38 79 39 32 39 11 39 26 40 94 40 79 40 52 41 76 41 15 41 49 42 52 42 0 42 96 43 6 43 37 43 76 44 37 44 15 44 97 45 7 45 38 45 58 46 73 46 19 46 58 47 57 47 98 47 42 48 34 48 3 48 19 49 99 49 42 49 100 50 3 50 45 50 0 51 101 51 29 51 41 52 43 52 8 52 103 53 25 53 68 53 53 54 68 54 16 54 2 55 103 55 53 55 104 56 10 56 47 56 44 57 47 57 5 57 22 58 104 58 44 58 105 59 1 59 31 59 66 60 31 60 10 60 24 61 105 61 66 61 106 62 14 62 51 62 33 63 51 63 2 63 33 64 62 64 106 64 107 65 5 65 36 65 63 66 36 66 14 66 23 67 107 67 63 67 108 68 21 68 67 68 69 69 67 69 25 69 14 70 108 70 69 70 109 71 20 71 70 71 15 72 109 72 71 72 72 73 58 73 19 73 111 74 18 74 74 74 75 75 55 75 17 75 113 76 16 76 81 76 83 39 81 39 27 39 11 77 113 77 83 77 114 78 13 78 84 78 86 79 84 79 28 79 86 80 31 80 114 80 114 81 31 81 1 81 32 82 2 82 53 82 38 83 7 83 55 83 35 84 4 84 56 84 110 85 41 85 8 85 37 86 6 86 59 86 36 87 5 87 60 87 61 88 22 88 44 88 62 89 23 89 63 89 64 90 9 90 30 90 65 91 24 91 66 91 51 92 14 92 69 92 70 93 20 93 43 93 52 41 15 41 71 41 72 94 19 94 42 94 74 95 18 95 40 95 75 96 17 96 39 96 77 97 12 97 33 97 78 98 26 98 79 98 48 35 11 35 83 35 47 99 10 99 86 99 87 100 86 100 28 100 60 101 87 101 85 101 5 102 47 102 87 102 88 103 83 103 27 103 59 104 88 104 82 104 6 105 48 105 88 105 8 106 43 106 89 106 20 107 82 107 89 107 56 108 90 108 80 108 4 109 46 109 90 109 7 110 40 110 91 110 18 111 80 111 91 111 17 112 55 112 92 112 55 113 7 113 54 113 48 114 93 114 79 114 6 115 39 115 93 115 17 116 78 116 93 116 94 117 33 117 2 117 79 118 94 118 32 118 26 119 77 119 94 119 52 120 95 120 76 120 49 121 95 121 52 121 96 122 39 122 6 122 76 123 96 123 37 123 97 124 40 124 7 124 58 125 98 125 73 125 58 126 8 126 57 126 42 48 99 48 34 48 19 127 73 127 99 127 100 128 42 128 3 128 0 129 52 129 101 129 41 130 102 130 43 130 103 53 69 53 25 53 53 131 103 131 68 131 2 132 51 132 103 132 104 133 66 133 10 133 44 134 104 134 47 134 22 135 65 135 104 135 105 136 30 136 1 136 66 137 105 137 31 137 24 138 64 138 105 138 106 139 63 139 14 139 33 140 106 140 51 140 33 89 12 89 62 89 107 141 44 141 5 141 63 142 107 142 36 142 23 143 61 143 107 143 108 144 60 144 21 144 69 145 108 145 67 145 14 146 36 146 108 146 109 147 59 147 20 147 15 148 37 148 109 148 72 149 110 149 58 149 111 150 56 150 18 150 75 151 112 151 55 151 113 152 53 152 16 152 83 153 113 153 81 153 11 154 32 154 113 154 114 155 50 155 13 155 86 156 114 156 84 156 86 157 10 157 31 157</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Plane-skin" name="Armature">
+      <skin source="#Plane-mesh">
+        <bind_shape_matrix>8.33486 0 0 0 0 8.33486 0 0 0 0 8.33486 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_Plane-skin-joints">
+          <Name_array id="Armature_Plane-skin-joints-array" count="44">RootBone Base Abdomen Chest Head HeadTop Shoulder_Left Elbow_Left Wrist_Left Fingertip_Left ExtCarRadLon_Left Triceps_Left Biceps_Left Deltoid_Left Shoulder_Right Elbow_Right Wrist_Right Fingertip_Right ExtCarRadLon_Right Biceps_Right Triceps_Right Deltoid_Right Trapez_Left Trapez_Right Hip_Right Knee_Right Ankle_Right Foot_Right TibAnt_Right Gastroc_Right RecFem_Right VasLat_Right VasMed_Right BicFem_Right Hip_Left Knee_Left Ankle_Left Foot_Left TibAnt_Left Gastroc_Left RecFem_Left VasMed_Left VasLat_Left BicFem_Left</Name_array>
+          <technique_common>
+            <accessor source="#Armature_Plane-skin-joints-array" count="44" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_Plane-skin-bind_poses">
+          <float_array id="Armature_Plane-skin-bind_poses-array" count="704">-1 0 -2.50335e-5 2.00925e-6 0 -1 0 -4.76837e-7 -2.50335e-5 0 1 0 0 0 0 1 1 -3.97635e-7 0 -2.06553e-6 -3.97635e-7 -1 0 -0.1414272 0 0 -1 0 0 0 0 1 1 -2.9322e-7 1.50996e-7 -1.75943e-6 -2.9322e-7 -1 0 -2.931537 1.50996e-7 0 -1 0 0 0 0 1 0.9998953 -7.5291e-7 -0.01446664 -3.94505e-6 -7.55665e-7 -1 -1.84978e-7 -4.74336 -0.01446664 1.9589e-7 -0.9998953 5.76921e-7 0 0 0 1 1 0 1.50874e-7 6.05394e-7 0 -1 0 -6.032265 1.50874e-7 0 -1 -5.96045e-7 0 0 0 1 -1 0 0 -6.05393e-7 0 -1 0 -7.55024 0 0 1 5.96045e-7 0 0 0 1 -0.1780223 0.9830541 -0.04373794 4.903696 0.983054 0.179646 0.03649938 -0.6302296 0.04373818 -0.03649902 -0.998376 0.335924 0 0 0 1 -0.05564016 0.9936094 -0.09820693 4.525771 0.9936096 0.04542726 -0.1033287 -3.463419 -0.09820711 -0.1033285 -0.9897871 0.5765073 0 0 0 1 -0.05872881 0.9934616 -0.09790295 4.543977 0.9934617 0.04854559 -0.1033315 -5.849377 -0.09790307 -0.1033313 -0.989817 0.5746432 0 0 0 1 0 1 1.3411e-7 4.099986 1 -1.62981e-7 0 -7.58599 0 1.49012e-7 -1 0.2582386 0 0 0 1 1.78814e-7 1 -2.23517e-6 4.133359 1 -2.08616e-7 1.41561e-7 -4.958183 1.3411e-7 -2.21282e-6 -0.9999999 0.4466038 0 0 0 1 8.96079e-7 1 0 4.295347 1 -1.01328e-6 -1.60187e-7 -2.622519 -1.23074e-7 0 -1 0.9814755 0 0 0 1 2.58108e-7 1 -1.04308e-6 4.330342 1 -3.57628e-7 0 -2.886149 -1.26041e-7 -1.02445e-6 -1 0.2603747 0 0 0 1 0 1 -1.99676e-6 4.942973 1 0 0 -2.003196 0 -1.98931e-6 -1 0.4859476 0 0 0 1 -0.1856572 -0.97988 -0.07325726 -4.810163 -0.9798799 0.179067 0.08814859 -0.5164625 -0.07325708 0.08814877 -0.9934099 0.8419375 0 0 0 1 -0.04776823 -0.9970577 0.05995094 -4.483759 -0.9970577 0.04399389 -0.06277352 -3.364346 0.05995136 -0.0627731 -0.9962255 0.67886 0 0 0 1 -0.08030629 -0.9831949 0.1639477 -4.683921 -0.9831949 0.05108034 -0.1752676 -5.66353 0.1639478 -0.1752675 -0.970774 0.8272459 0 0 0 1 0 -1 1.93715e-7 -4.099981 -1 0 0 -7.4456 0 -1.3411e-7 -0.9999999 0.3349379 0 0 0 1 1.19209e-7 -1 0 -4.121018 -1 -1.31549e-7 0 -4.967547 0 0 -0.9999999 0.4262043 0 0 0 1 0 -1 0 -4.330342 -1 0 -1.63913e-7 -2.88615 1.78814e-7 0 -0.9999999 0.2603788 0 0 0 1 1.23461e-7 -1 0 -4.142659 -1 -1.78814e-7 0 -2.706616 0 0 -0.9999999 1.062335 0 0 0 1 0 -1 0 -4.878145 -1 -1.49012e-7 0 -2.009438 0 0 -0.9999999 0.4808299 0 0 0 1 0.9998953 -9.79006e-6 -0.01446664 -0.6377341 -9.81612e-6 -1 -1.85134e-6 -4.872525 -0.01446664 1.99676e-6 -0.9998953 0.9278816 0 0 0 1 0.9998953 -9.79006e-6 -0.01446664 0.5411338 -9.81612e-6 -1 -1.85134e-6 -4.872537 -0.01446664 1.99676e-6 -0.9998953 0.9108256 0 0 0 1 -0.9918645 -0.1175312 -0.04890525 -0.7693509 -0.1184853 0.9928089 0.01708048 0.1982026 0.04654604 0.02273607 -0.9986574 0.001076698 0 0 0 1 -0.9993881 -0.03495639 -0.001259505 -1.089709 -0.03497314 0.9979272 0.05401962 -3.7878 -6.31415e-4 0.05403059 -0.9985391 -0.1739536 0 0 0 1 -0.9911763 -0.0868777 0.1001103 -0.7032589 -0.1148908 0.1864294 -0.9757275 -1.354812 0.06610578 -0.9786194 -0.1947659 7.675856 0 0 0 1 -1 1.3411e-7 0 -1.549939 0 0.03157979 -0.9995013 -1.620855 0 -0.9995011 -0.03157985 7.964011 0 0 0 1 -1 0 -3.25847e-7 -1.515907 0 1 -2.71946e-7 -5.256635 3.05474e-7 -2.90573e-7 -1 -0.1603904 0 0 0 1 -1 0 -3.42523e-6 -1.383171 0 1 0 -4.016054 3.39747e-6 0 -1 0.4780285 0 0 0 1 -1 1.19209e-7 0 -0.9887619 0 1 0 -1.461875 0 0 -1 -0.5744843 0 0 0 1 -1 2.38419e-7 0 -1.376859 2.52096e-7 1 1.95578e-7 -2.114735 0 2.08616e-7 -1 -0.5120255 0 0 0 1 -1 0 0 -0.7091962 0 1 0 -2.504952 0 0 -1 -0.3876716 0 0 0 1 -1 0 0 -1.361248 0 1 0 -1.815587 0 0 -1 0.372345 0 0 0 1 -0.9937623 0.1117103 7.68767e-4 0.782135 0.1117022 0.9935945 0.01712554 0.1594973 0.001155734 0.01710307 -0.9998536 -0.03661346 0 0 0 1 -0.9984295 0.05634015 0.002757191 0.9973618 0.05637985 0.9954839 0.07638418 -3.839433 0.0015648 0.07641696 -0.9970752 -0.2617482 0 0 0 1 -0.9952381 0.07349699 -0.06435441 0.8810246 0.0735048 0.1293634 -0.9888701 -0.7837991 -0.06434774 -0.9888706 -0.1341475 7.898178 0 0 0 1 -1.000021 1.59442e-6 0 1.569755 6.6129e-6 -1.07288e-6 -1.000001 -1.368548 5.29148e-6 -1.000001 0 8.070577 0 0 0 1 -1.000021 1.49012e-7 0 1.52675 -6.9361e-6 1.000001 1.16974e-6 -5.289469 6.52702e-6 0 -1 -0.04095822 0 0 0 1 -1.000021 -1.19209e-7 0 1.460382 -7.21277e-6 1.000001 1.00583e-6 -3.90355 6.53451e-6 0 -1.000001 0.326803 0 0 0 1 -1.000021 -1.19209e-7 -5.68352e-7 1.050631 -7.07585e-6 1.000001 1.11386e-6 -1.413248 7.19915e-6 0 -1.000001 -0.5204564 0 0 0 1 -1.000021 0 -1.52193e-6 0.7482782 -7.01745e-6 1.000001 1.13248e-6 -2.462878 8.14995e-6 0 -1.000001 -0.3495886 0 0 0 1 -1.000021 -1.19209e-7 -1.52205e-6 1.357546 -7.18032e-6 1.000001 1.11385e-6 -2.076993 8.13421e-6 0 -1.000001 -0.5091509 0 0 0 1 -1.000021 0 -2.71393e-6 1.300332 -7.08613e-6 1.000001 1.13061e-6 -1.917507 9.32207e-6 0 -1.000001 0.4338424 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_Plane-skin-bind_poses-array" count="44" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_Plane-skin-weights">
+          <float_array id="Armature_Plane-skin-weights-array" count="187">1 0.5 0.5 0.25 0.25 0.25 0.25 1 1 0.3244301 0.3244301 0.3244301 0.02670973 1 0.1187095 0.8812904 0.5 0.5 0.4464823 0.5535177 0.9939191 0.006080865 1 0.5 0.5 0.3949479 0.6050521 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 1 0.5 0.5 0.5 0.5 0.4974547 0.5025453 1 1 1 1 1 1 1 0.4787352 0.5212648 0.3333333 0.3333333 0.3333333 1 0.5 0.5 1 1 0.327814 0.327814 0.327814 0.01655793 0.5 0.5 1 0.5 0.5 1 0.5 0.5 1 1 0.5 0.5 1 1 0.953705 0.04629498 0.5 0.5 1 0.4685578 0.5314422 0.5 0.5 0.5 0.5 0.5 0.5 1 1 1 0.5 0.5 1 0.924992 0.07500797 0.5 0.5 0.5 0.5 1 1 0.5 0.5 1 1 0.5 0.5 1 1 0.5 0.5 0.5 0.5 1 1 0.4910125 0.5089875 0.5 0.5 0.5 0.5 1 0.3333333 0.3333333 0.3333333 1 0.5 0.5 1 0.3333333 0.3333333 0.3333333 1 0.5 0.5 1 1 1 0.5 0.5 0.5 0.5 1 1 0.5 0.5 0.3333333 0.3333333 0.3333333 0.7431509 0.2568491 0.4526864 0.5473136 0.3333333 0.3333333 0.3333333 1 1 1 1 0.5 0.5 1 1 1 0.5 0.5 1 0.5 0.5 0.5 0.5 0.4739359 0.4739359 0.05212813 1 1 1 0.7146124 0.2853875 0.5 0.5</float_array>
+          <technique_common>
+            <accessor source="#Armature_Plane-skin-weights-array" count="187" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_Plane-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_Plane-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="115">
+          <input semantic="JOINT" source="#Armature_Plane-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_Plane-skin-weights" offset="1"/>
+          <vcount>1 2 4 1 1 4 1 2 2 2 2 1 2 2 2 2 2 2 2 1 2 2 2 1 1 1 1 1 1 1 2 3 1 2 1 1 4 2 1 2 1 2 1 1 2 1 1 2 2 1 2 2 2 2 1 1 1 2 1 2 2 2 1 1 2 1 1 2 1 1 2 2 1 1 2 2 2 1 3 1 2 1 3 1 2 1 1 1 2 2 1 1 2 3 2 2 3 1 1 1 1 2 1 1 1 2 1 2 2 3 1 1 1 2 2 </vcount>
+          <v>4 0 26 1 36 2 0 3 1 4 24 5 34 6 16 7 8 8 24 9 25 10 34 11 35 12 2 13 6 14 7 15 14 16 15 17 35 18 36 19 25 20 35 21 1 22 1 23 34 24 25 25 26 26 24 27 34 28 3 29 4 30 1 31 24 32 2 33 6 34 7 35 8 36 15 37 2 38 14 39 24 40 25 41 34 42 35 43 34 44 35 45 24 46 1 47 1 48 25 49 4 50 35 51 36 52 25 53 26 54 36 55 1 56 1 57 34 58 16 59 8 60 24 61 25 62 34 63 35 64 2 65 3 66 7 67 2 68 6 69 7 70 14 71 15 72 16 73 14 74 34 75 35 76 16 77 8 78 25 79 35 80 1 81 2 82 4 83 25 84 26 85 24 86 34 87 3 88 4 89 1 90 24 91 7 92 6 93 8 94 14 95 15 96 15 97 2 98 14 99 24 100 25 101 34 102 35 103 34 104 34 105 35 106 36 107 35 108 35 109 24 110 25 111 24 112 24 113 2 114 14 115 3 116 4 117 15 118 15 119 7 120 8 121 2 122 6 123 3 124 4 125 1 126 1 127 2 128 6 129 1 130 7 131 8 132 1 133 1 134 2 135 14 136 1 137 25 138 26 139 25 140 25 141 25 142 1 143 2 144 1 145 14 146 8 147 7 148 1 149 6 150 1 151 2 152 6 153 1 154 34 155 3 156 4 157 2 158 3 159 6 160 7 161 15 162 16 163 16 164 3 165 4 166 14 167 24 168 35 169 35 170 36 171 34 172 34 173 35 174 24 175 25 176 2 177 3 178 14 179 15 180 8 181 6 182 1 183 24 184 25 185 26 186</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="RootBone" name="RootBone" sid="RootBone" type="JOINT">
+          <matrix sid="transform">-1 3.05962e-10 -2.50335e-5 2.00925e-6 -3.05962e-10 -1 9.13321e-12 -4.76837e-7 -2.50335e-5 9.13321e-12 1 0 0 0 0 1</matrix>
+          <node id="Base" name="Base" sid="Base" type="JOINT">
+            <matrix sid="transform">-1 3.97943e-7 2.49465e-5 0 3.97941e-7 1 -8.54604e-8 0.1414268 -2.49465e-5 -8.54505e-8 -1 0 0 0 0 1</matrix>
+            <node id="Abdomen" name="Abdomen" sid="Abdomen" type="JOINT">
+              <matrix sid="transform">1 1.04415e-7 6.40409e-8 0 -1.04415e-7 1 1.96561e-8 2.79011 -6.40408e-8 -1.96561e-8 1 -8.88178e-16 0 0 0 1</matrix>
+              <node id="Chest" name="Chest" sid="Chest" type="JOINT">
+                <matrix sid="transform">0.9998953 -4.62446e-7 -0.0144668 1.13687e-13 4.60673e-7 1 -1.2586e-7 1.811823 0.0144668 1.19182e-7 0.9998953 -4.9738e-14 0 0 0 1</matrix>
+                <node id="Head" name="Head" sid="Head" type="JOINT">
+                  <matrix sid="transform">0.9998953 7.5291e-7 0.0144668 0 -7.55665e-7 1 1.84977e-7 1.288905 -0.0144668 -1.9589e-7 0.9998953 5.68434e-14 0 0 0 1</matrix>
+                  <node id="Occipitalis_Right" name="Occipitalis.Right" sid="Occipitalis_Right" type="JOINT">
+                    <matrix sid="transform">-1 2.4425e-15 1.50996e-7 -0.3139969 0 1 0 0.4629955 -1.50996e-7 0 -1 -0.4466897 0 0 0 1</matrix>
+                  </node>
+                  <node id="Occipitalis_Left" name="Occipitalis.Left" sid="Occipitalis_Left" type="JOINT">
+                    <matrix sid="transform">-1 2.4425e-15 1.50996e-7 0.3139948 0 1 0 0.4629955 -1.50996e-7 0 -1 -0.4466896 0 0 0 1</matrix>
+                  </node>
+                  <node id="Temporalis_Left" name="Temporalis.Left" sid="Temporalis_Left" type="JOINT">
+                    <matrix sid="transform">-1 2.44249e-15 1.50996e-7 0.5205089 0 0.9999997 0 0.9011369 -1.50996e-7 0 -1 0.3820248 0 0 0 1</matrix>
+                  </node>
+                  <node id="Temporalis_Right" name="Temporalis.Right" sid="Temporalis_Right" type="JOINT">
+                    <matrix sid="transform">-1 2.44249e-15 1.50996e-7 -0.5205082 0 0.9999997 0 0.9011369 -1.50996e-7 0 -1 0.3820246 0 0 0 1</matrix>
+                  </node>
+                  <node id="Frontalis_Right" name="Frontalis.Right" sid="Frontalis_Right" type="JOINT">
+                    <matrix sid="transform">-1 2.4425e-15 1.50996e-7 -0.3046097 0 1 0 1.056168 -1.50996e-7 0 -1 0.8234466 0 0 0 1</matrix>
+                  </node>
+                  <node id="Frontalis_Left" name="Frontalis.Left" sid="Frontalis_Left" type="JOINT">
+                    <matrix sid="transform">-1 2.4425e-15 1.50996e-7 0.3046072 0 1 0 1.056168 -1.50996e-7 0 -1 0.8234467 0 0 0 1</matrix>
+                  </node>
+                  <node id="Zygomaticus_Left" name="Zygomaticus.Left" sid="Zygomaticus_Left" type="JOINT">
+                    <matrix sid="transform">-1 2.4425e-15 1.50996e-7 0.3798654 0 1 0 -0.02456093 -1.50996e-7 0 -1 0.8107399 0 0 0 1</matrix>
+                  </node>
+                  <node id="Zygomaticus_Right" name="Zygomaticus.Right" sid="Zygomaticus_Right" type="JOINT">
+                    <matrix sid="transform">-1 2.4425e-15 1.50996e-7 -0.3798596 0 1 0 -0.02456093 -1.50996e-7 0 -1 0.8107398 0 0 0 1</matrix>
+                  </node>
+                  <node id="HeadTop" name="HeadTop" sid="HeadTop" type="JOINT">
+                    <matrix sid="transform">-1 -5.44009e-14 1.50996e-7 -5.68434e-14 -5.68434e-14 1 0 1.517976 -1.50996e-7 0 -1 0 0 0 0 1</matrix>
+                  </node>
+                </node>
+              </node>
+              <node id="Shoulder_Left" name="Shoulder.Left" sid="Shoulder_Left" type="JOINT">
+                <matrix sid="transform">-0.1780224 0.9830538 0.04373808 1.477823 -0.9830538 -0.1796465 0.03649913 1.76358 0.043738 -0.03649922 0.9983761 -0.5728592 0 0 0 1</matrix>
+                <node id="Elbow_Left" name="Elbow.Left" sid="Elbow_Left" type="JOINT">
+                  <matrix sid="transform">0.9909722 -0.1277077 -0.04080326 -4.76837e-7 0.1202164 0.9811609 -0.1512321 2.311057 0.05934806 0.1449615 0.9876558 -8.9407e-8 0 0 0 1</matrix>
+                  <node id="Wrist_Left" name="Wrist.Left" sid="Wrist_Left" type="JOINT">
+                    <matrix sid="transform">0.9999951 0.00310699 -1.6734e-5 -4.76837e-7 -0.003106907 0.9999952 3.05034e-4 2.399873 1.76579e-5 -3.0499e-4 0.9999999 -5.96046e-8 0 0 0 1</matrix>
+                    <node id="Fingertip_Left" name="Fingertip.Left" sid="Fingertip_Left" type="JOINT">
+                      <matrix sid="transform">0.9934616 -0.05872882 0.0979031 -4.76837e-7 0.04854576 0.9934614 0.1033315 1.461291 -0.1033315 -0.0979031 0.989817 -5.96046e-8 0 0 0 1</matrix>
+                    </node>
+                  </node>
+                  <node id="ExtCarRadLon_Left" name="ExtCarRadLon.Left" sid="ExtCarRadLon_Left" type="JOINT">
+                    <matrix sid="transform">0.9936095 -0.05564026 0.09820475 0.09909248 0.04542769 0.9936094 0.1033288 1.229163 -0.1033264 -0.09820724 0.9897875 0.07462019 0 0 0 1</matrix>
+                  </node>
+                  <node id="PronatorTeres_Left" name="PronatorTeres.Left" sid="PronatorTeres_Left" type="JOINT">
+                    <matrix sid="transform">0.9936095 -0.05563953 0.0982043 0.157548 0.0454271 0.9936094 0.1033279 0.1529496 -0.1033259 -0.09820645 0.9897876 6.30498e-4 0 0 0 1</matrix>
+                  </node>
+                  <node id="Brachior_Left" name="Brachior.Left" sid="Brachior_Left" type="JOINT">
+                    <matrix sid="transform">0.9936094 -0.05564028 0.09820641 0.215909 0.04542754 0.9936094 0.1033288 0.9477279 -0.1033281 -0.09820713 0.9897873 0.07255107 0 0 0 1</matrix>
+                  </node>
+                  <node id="FlexorCarpiRadialis_Left" name="FlexorCarpiRadialis.Left" sid="FlexorCarpiRadialis_Left" type="JOINT">
+                    <matrix sid="transform">0.9936094 -0.05564028 0.09820617 0.2126021 0.04542757 0.9936094 0.1033287 1.466172 -0.1033278 -0.09820713 0.9897873 -0.1615962 0 0 0 1</matrix>
+                  </node>
+                  <node id="ExtensorDigitorum_Left" name="ExtensorDigitorum.Left" sid="ExtensorDigitorum_Left" type="JOINT">
+                    <matrix sid="transform">0.9936095 -0.05564021 0.09820474 0.01929617 0.04542765 0.9936094 0.1033286 2.129951 -0.1033264 -0.09820712 0.9897875 -0.08160728 0 0 0 1</matrix>
+                  </node>
+                  <node id="ExtensorCarpiUlnaris_Left" name="ExtensorCarpiUlnaris.Left" sid="ExtensorCarpiUlnaris_Left" type="JOINT">
+                    <matrix sid="transform">0.9936095 -0.05564059 0.09820423 -0.1718626 0.04542806 0.9936094 0.1033289 0.7814162 -0.1033259 -0.09820735 0.9897873 -0.2368237 0 0 0 1</matrix>
+                  </node>
+                  <node id="FlexorCarpiUlnaris_Left" name="FlexorCarpiUlnaris.Left" sid="FlexorCarpiUlnaris_Left" type="JOINT">
+                    <matrix sid="transform">0.9936097 -0.05564046 0.09820357 0.04506302 0.04542805 0.9936093 0.1033284 0.1711855 -0.1033253 -0.09820693 0.9897876 -0.4232424 0 0 0 1</matrix>
+                  </node>
+                </node>
+                <node id="Triceps_Left" name="Triceps.Left" sid="Triceps_Left" type="JOINT">
+                  <matrix sid="transform">0.9830537 -0.1780231 0.04373789 0.1713414 0.179647 0.9830537 -0.03649956 1.212025 -0.03649895 0.04373839 0.998376 -0.3724771 0 0 0 1</matrix>
+                </node>
+                <node id="Biceps_Left" name="Biceps.Left" sid="Biceps_Left" type="JOINT">
+                  <matrix sid="transform">0.983054 -0.1780225 0.04373695 0.1215482 0.1796464 0.9830539 -0.03649969 1.438584 -0.03649802 0.04373833 0.998376 0.3602565 0 0 0 1</matrix>
+                </node>
+                <node id="Deltoid_Left" name="Deltoid.Left" sid="Deltoid_Left" type="JOINT">
+                  <matrix sid="transform">0.9830541 -0.1780222 0.04373598 -0.3333817 0.1796461 0.9830538 -0.03649972 0.4687709 -0.03649709 0.04373817 0.998376 0.1187857 0 0 0 1</matrix>
+                </node>
+                <node id="Brachialis_Left" name="Brachialis.Left" sid="Brachialis_Left" type="JOINT">
+                  <matrix sid="transform">0.9830542 -0.1780225 0.04373458 0.2077079 0.1796463 0.9830539 -0.03649994 1.879924 -0.03649563 0.04373815 0.9983761 -0.03323367 0 0 0 1</matrix>
+                </node>
+              </node>
+              <node id="Shoulder_Right" name="Shoulder.Right" sid="Shoulder_Right" type="JOINT">
+                <matrix sid="transform">-0.1856569 -0.97988 -0.07325728 -1.337435 0.97988 -0.1790668 -0.08814868 1.76358 0.07325719 -0.08814876 0.9934099 -0.5295356 0 0 0 1</matrix>
+                <node id="Elbow_Right" name="Elbow.Right" sid="Elbow_Right" type="JOINT">
+                  <matrix sid="transform">0.9814735 0.1466008 0.1233605 0 -0.1264484 0.9793412 -0.1578017 2.318542 -0.1439459 0.1392795 0.9797351 -5.96046e-8 0 0 0 1</matrix>
+                  <node id="Wrist_Right" name="Wrist.Right" sid="Wrist_Right" type="JOINT">
+                    <matrix sid="transform">0.9939668 -0.01447203 0.1087215 0 0.02652378 0.9935513 -0.1102371 2.47809 -0.1064251 0.1124558 0.9879411 5.96046e-8 0 0 0 1</matrix>
+                    <node id="Fingertip_Right" name="Fingertip.Right" sid="Fingertip_Right" type="JOINT">
+                      <matrix sid="transform">0.9831948 0.08030631 -0.1639475 4.76837e-7 -0.05108042 0.9831948 0.1752677 1.388813 0.1752674 -0.1639478 0.9707741 0 0 0 0 1</matrix>
+                    </node>
+                  </node>
+                  <node id="ExtCarRadLon_Right" name="ExtCarRadLon.Right" sid="ExtCarRadLon_Right" type="JOINT">
+                    <matrix sid="transform">0.9970576 0.04776835 -0.05995089 -0.1120243 -0.04399402 0.9970577 0.0627735 1.38053 0.06277309 -0.05995131 0.9962257 0.2151424 0 0 0 1</matrix>
+                  </node>
+                  <node id="PronatorTeres_Right" name="PronatorTeres.Right" sid="PronatorTeres_Right" type="JOINT">
+                    <matrix sid="transform">0.9970576 0.04776828 -0.05995089 -0.1569343 -0.04399396 0.9970577 0.06277334 0.2752769 0.06277309 -0.05995115 0.9962255 0.08222252 0 0 0 1</matrix>
+                  </node>
+                  <node id="Brachior_Right" name="Brachior.Right" sid="Brachior_Right" type="JOINT">
+                    <matrix sid="transform">0.9970576 0.04776831 -0.05995089 -0.2150211 -0.04399399 0.9970577 0.06277335 1.079196 0.06277309 -0.05995116 0.9962255 0.1877144 0 0 0 1</matrix>
+                  </node>
+                  <node id="FlexorCarpiRadialis_Right" name="FlexorCarpiRadialis.Right" sid="FlexorCarpiRadialis_Right" type="JOINT">
+                    <matrix sid="transform">0.9970576 0.04776825 -0.05995089 -0.2229342 -0.04399391 0.9970577 0.06277361 1.606671 0.06277309 -0.05995142 0.9962255 -0.02518547 0 0 0 1</matrix>
+                  </node>
+                  <node id="ExtensorDigitorum_Right" name="ExtensorDigitorum.Right" sid="ExtensorDigitorum_Right" type="JOINT">
+                    <matrix sid="transform">0.9970576 0.04776819 -0.05995089 -0.02944183 -0.04399386 0.9970577 0.06277356 2.265413 0.06277309 -0.05995138 0.9962257 0.07421345 0 0 0 1</matrix>
+                  </node>
+                  <node id="ExtensorCarpiUlnaris_Right" name="ExtensorCarpiUlnaris.Right" sid="ExtensorCarpiUlnaris_Right" type="JOINT">
+                    <matrix sid="transform">0.9970576 0.04776805 -0.05995087 0.1610346 -0.0439937 0.9970577 0.06277393 0.9271958 0.06277308 -0.05995176 0.9962255 -0.1429288 0 0 0 1</matrix>
+                  </node>
+                  <node id="FlexorCarpiUlnaris_Right" name="FlexorCarpiUlnaris.Right" sid="FlexorCarpiUlnaris_Right" type="JOINT">
+                    <matrix sid="transform">0.9970576 0.04776811 -0.05995087 -0.06046152 -0.04399377 0.9970576 0.0627737 0.3253291 0.06277308 -0.05995152 0.9962255 -0.3454565 0 0 0 1</matrix>
+                  </node>
+                </node>
+                <node id="Biceps_Right" name="Biceps.Right" sid="Biceps_Right" type="JOINT">
+                  <matrix sid="transform">0.97988 0.1856572 0.07325734 -0.05018759 -0.1790671 0.9798799 -0.08814882 1.559148 -0.08814887 0.07325728 0.9934101 0.4129913 0 0 0 1</matrix>
+                </node>
+                <node id="Triceps_Right" name="Triceps.Right" sid="Triceps_Right" type="JOINT">
+                  <matrix sid="transform">0.97988 0.1856573 0.07325736 -0.3261752 -0.1790672 0.9798799 -0.08814859 1.487525 -0.08814887 0.07325706 0.9934101 -0.3802891 0 0 0 1</matrix>
+                </node>
+                <node id="Deltoid_Right" name="Deltoid.Right" sid="Deltoid_Right" type="JOINT">
+                  <matrix sid="transform">0.97988 0.1856573 0.07325735 0.3076754 -0.1790672 0.9798799 -0.08814871 0.6214144 -0.08814886 0.07325718 0.9934101 0.08147907 0 0 0 1</matrix>
+                </node>
+                <node id="Brachialis_Right" name="Brachialis.Right" sid="Brachialis_Right" type="JOINT">
+                  <matrix sid="transform">0.97988 0.1856571 0.07325737 -0.1914415 -0.179067 0.9798799 -0.08814866 1.960301 -0.08814885 0.07325714 0.9934101 0.0511241 0 0 0 1</matrix>
+                </node>
+              </node>
+              <node id="Trapez_Left" name="Trapez.Left" sid="Trapez_Left" type="JOINT">
+                <matrix sid="transform">0.9998953 -9.5229e-6 -0.0144668 0.6510426 9.49607e-6 1 -1.92312e-6 1.940996 0.0144668 1.78554e-6 0.9998953 -0.91855 0 0 0 1</matrix>
+              </node>
+              <node id="Trapez_Right" name="Trapez.Right" sid="Trapez_Right" type="JOINT">
+                <matrix sid="transform">0.9998953 -9.5229e-6 -0.0144668 -0.5279487 9.49607e-6 1 -1.92312e-6 1.940996 0.0144668 1.78554e-6 0.9998953 -0.9185501 0 0 0 1</matrix>
+              </node>
+              <node id="Sterno_Left" name="Sterno.Left" sid="Sterno_Left" type="JOINT">
+                <matrix sid="transform">1 6.28374e-7 -6.3573e-8 0.4602728 -6.28374e-7 1 1.57094e-7 2.765214 6.35731e-8 -1.57094e-7 1 -0.107196 0 0 0 1</matrix>
+              </node>
+              <node id="Sterno_Right" name="Sterno.Right" sid="Sterno_Right" type="JOINT">
+                <matrix sid="transform">1 6.28374e-7 -6.3573e-8 -0.4100338 -6.28374e-7 1 3.55271e-14 2.765214 6.35731e-8 0 1 -0.1071961 0 0 0 1</matrix>
+              </node>
+              <node id="Platysma_Right" name="Platysma.Right" sid="Platysma_Right" type="JOINT">
+                <matrix sid="transform">1 1.84869e-14 -6.3573e-8 -0.3546915 -5.752e-15 1 -7.10543e-15 2.4026 6.35731e-8 0 1 0.220256 0 0 0 1</matrix>
+              </node>
+              <node id="Platysma_Left" name="Platysma.Left" sid="Platysma_Left" type="JOINT">
+                <matrix sid="transform">1 1.84869e-14 -6.35729e-8 0.3546898 -5.75201e-15 1 -7.10543e-15 2.426313 6.3573e-8 0 1 0.2202561 0 0 0 1</matrix>
+              </node>
+              <node id="PectoralisMajor_Left" name="PectoralisMajor.Left" sid="PectoralisMajor_Left" type="JOINT">
+                <matrix sid="transform">0.9998953 -8.92772e-6 -0.0144668 0.8259972 8.89235e-6 1 -2.50963e-6 1.012992 0.0144668 2.38073e-6 0.9998953 0.7146226 0 0 0 1</matrix>
+              </node>
+              <node id="PectoralisMajor_Right" name="PectoralisMajor.Right" sid="PectoralisMajor_Right" type="JOINT">
+                <matrix sid="transform">0.9998953 -8.92772e-6 -0.0144668 -0.8260002 8.89235e-6 1 -2.50963e-6 1.012993 0.0144668 2.38073e-6 0.9998953 0.7146223 0 0 0 1</matrix>
+              </node>
+            </node>
+            <node id="ExternalOblique" name="ExternalOblique" sid="ExternalOblique" type="JOINT">
+              <matrix sid="transform">1 1.01557e-7 6.40409e-8 -1.24247e-6 -1.01557e-7 1 0 1.930686 -6.40409e-8 0 1 0.7741508 0 0 0 1</matrix>
+            </node>
+            <node id="TransversusAbdominis" name="TransversusAbdominis" sid="TransversusAbdominis" type="JOINT">
+              <matrix sid="transform">1 9.9325e-8 6.40409e-8 -1.55794e-6 -9.9325e-8 1 0 1.122909 -6.40409e-8 0 1 0.7094791 0 0 0 1</matrix>
+            </node>
+            <node id="InternalOblique_Left" name="InternalOblique.Left" sid="InternalOblique_Left" type="JOINT">
+              <matrix sid="transform">1 5.53939e-15 6.40409e-8 1.097125 -1.29028e-14 1 1.49155e-7 1.846707 -6.40409e-8 -1.49155e-7 1 0.1905492 0 0 0 1</matrix>
+            </node>
+            <node id="InternalOblique_Right" name="InternalOblique.Right" sid="InternalOblique_Right" type="JOINT">
+              <matrix sid="transform">1 5.53939e-15 6.40409e-8 -1.097131 -1.29028e-14 1 1.49155e-7 1.846708 -6.40409e-8 -1.49155e-7 1 0.190549 0 0 0 1</matrix>
+            </node>
+            <node id="RectusAbdominis" name="RectusAbdominis" sid="RectusAbdominis" type="JOINT">
+              <matrix sid="transform">1 9.93239e-8 6.40409e-8 -9.20166e-7 -9.93239e-8 1 0 2.777988 -6.40409e-8 0 1 0.9434602 0 0 0 1</matrix>
+            </node>
+            <node id="LatissimusDorsi_Right" name="LatissimusDorsi.Right" sid="LatissimusDorsi_Right" type="JOINT">
+              <matrix sid="transform">1 -7.43041e-15 6.40408e-8 -0.8755351 -1.29028e-14 1 7.10543e-15 3.193191 -6.40408e-8 0 1 -1.043463 0 0 0 1</matrix>
+            </node>
+            <node id="LatissimusDorsi_Left" name="LatissimusDorsi.Left" sid="LatissimusDorsi_Left" type="JOINT">
+              <matrix sid="transform">1 -7.43041e-15 6.40408e-8 0.8755295 -1.29028e-14 1 7.10543e-15 3.193191 -6.40408e-8 0 1 -1.043463 0 0 0 1</matrix>
+            </node>
+          </node>
+          <node id="Hip_Right" name="Hip.Right" sid="Hip_Right" type="JOINT">
+            <matrix sid="transform">0.9918653 0.118485 -0.04652107 0.7396606 0.1175312 -0.9928088 -0.02273609 0.2872241 -0.0488804 0.01708346 -0.9986585 -0.0399169 0 0 0 1</matrix>
+            <node id="Knee_Right" name="Knee.Right" sid="Knee_Right" type="JOINT">
+              <matrix sid="transform">0.9954275 -0.08524071 0.04310978 0 0.08368639 0.9958175 0.03666135 4.067732 -0.04605452 -0.03288599 0.9983974 -1.74623e-9 0 0 0 1</matrix>
+              <node id="Ankle_Right" name="Ankle.Right" sid="Ankle_Right" type="JOINT">
+                <matrix sid="transform">0.9934804 0.1095325 -0.03161067 -3.57628e-7 -0.04662511 0.1373528 -0.9894243 3.960176 -0.1040323 0.9844474 0.1415642 1.49012e-8 0 0 0 1</matrix>
+                <node id="Foot_Right" name="Foot.Right" sid="Foot_Right" type="JOINT">
+                  <matrix sid="transform">0.9911761 -0.102804 0.08367305 1.19209e-7 0.1148908 0.9811283 -0.1555232 1.652116 -0.06610595 0.1637641 0.9842821 4.76837e-7 0 0 0 1</matrix>
+                </node>
+              </node>
+              <node id="TibAnt_Right" name="TibAnt.Right" sid="TibAnt_Right" type="JOINT">
+                <matrix sid="transform">0.999388 -0.03495652 0.001259216 0.2417188 0.0349733 0.9979271 -0.05401991 1.502291 6.31732e-4 0.05403088 0.998539 0.2711808 0 0 0 1</matrix>
+              </node>
+              <node id="Gastroc_Right" name="Gastroc.Right" sid="Gastroc_Right" type="JOINT">
+                <matrix sid="transform">0.999388 -0.03495645 0.001256105 0.151628 0.03497306 0.9979271 -0.05401964 0.2941263 6.34823e-4 0.05403052 0.998539 -0.4334162 0 0 0 1</matrix>
+              </node>
+              <node id="FibularisLongus_Right" name="FibularisLongus.Right" sid="FibularisLongus_Right" type="JOINT">
+                <matrix sid="transform">0.999388 -0.03495652 0.001254441 0.336386 0.03497304 0.9979271 -0.05401982 0.781553 6.36493e-4 0.05403062 0.9985391 -0.1273136 0 0 0 1</matrix>
+              </node>
+              <node id="ExtensorDigitorumLongus_Right" name="ExtensorDigitorumLongus.Right" sid="ExtensorDigitorumLongus_Right" type="JOINT">
+                <matrix sid="transform">0.999388 -0.03495638 0.001252772 0.1640023 0.03497281 0.9979272 -0.05401985 3.008228 6.38152e-4 0.0540306 0.9985391 0.02258988 0 0 0 1</matrix>
+              </node>
+              <node id="Soleus_Right" name="Soleus.Right" sid="Soleus_Right" type="JOINT">
+                <matrix sid="transform">0.999388 -0.03495615 0.001254435 0.3455722 0.03497268 0.9979272 -0.05401965 1.952085 6.36473e-4 0.05403046 0.998539 -0.3901058 0 0 0 1</matrix>
+              </node>
+            </node>
+            <node id="RecFem_Right" name="RecFem.Right" sid="RecFem_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175314 0.04890532 0.06764597 0.1184855 0.9928088 -0.0170805 1.756907 -0.04654615 0.02273612 0.9986573 0.562004 0 0 0 1</matrix>
+            </node>
+            <node id="VasLat_Right" name="VasLat.Right" sid="VasLat_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175315 0.04890531 0.3727993 0.1184856 0.9928089 -0.0170803 2.452122 -0.04654616 0.02273591 0.9986573 0.4964076 0 0 0 1</matrix>
+            </node>
+            <node id="VasMed_Right" name="VasMed.Right" sid="VasMed_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175314 0.04890532 -0.3413757 0.1184855 0.9928088 -0.0170805 2.762549 -0.04654615 0.02273612 0.9986573 0.4121704 0 0 0 1</matrix>
+            </node>
+            <node id="BicFem_Right" name="BicFem.Right" sid="BicFem_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175314 0.04890532 0.3492248 0.1184855 0.9928089 -0.01708046 2.168381 -0.04654615 0.02273607 0.9986573 -0.3928498 0 0 0 1</matrix>
+            </node>
+            <node id="Iliopsoas_Right" name="Iliopsoas.Right" sid="Iliopsoas_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175314 0.04890532 -0.07658005 0.1184855 0.9928088 -0.0170805 0.2253931 -0.04654615 0.02273612 0.9986573 0.3528002 0 0 0 1</matrix>
+            </node>
+            <node id="AdductorLongus_Right" name="AdductorLongus.Right" sid="AdductorLongus_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175314 0.04890532 -0.3097019 0.1184855 0.9928088 -0.0170805 0.542253 -0.04654615 0.02273612 0.9986573 0.3389053 0 0 0 1</matrix>
+            </node>
+            <node id="Sartorius_Right" name="Sartorius.Right" sid="Sartorius_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175312 0.04890532 0.1949641 0.1184853 0.9928088 -0.01708047 -0.2577553 -0.04654615 0.02273607 0.9986573 0.451272 0 0 0 1</matrix>
+            </node>
+            <node id="GluteusMedius_Right" name="GluteusMedius.Right" sid="GluteusMedius_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175307 0.04890533 0.3075277 0.1184848 0.992809 -0.0170805 -0.9420055 -0.04654616 0.02273608 0.9986573 -0.5455618 0 0 0 1</matrix>
+            </node>
+            <node id="GluteusMaximus_Right" name="GluteusMaximus.Right" sid="GluteusMaximus_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175311 0.04890529 0.06634492 0.1184852 0.9928089 -0.01708011 -0.01269339 -0.04654616 0.02273571 0.9986573 -1.064788 0 0 0 1</matrix>
+            </node>
+            <node id="Semitendinosus_Right" name="Semitendinosus.Right" sid="Semitendinosus_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175312 0.04890533 -6.14166e-4 0.1184853 0.9928088 -0.01708051 2.891227 -0.04654615 0.02273612 0.9986573 -0.533537 0 0 0 1</matrix>
+            </node>
+            <node id="Semimembranosus_Right" name="Semimembranosus.Right" sid="Semimembranosus_Right" type="JOINT">
+              <matrix sid="transform">0.9918644 -0.1175315 0.04890532 -0.2992471 0.1184856 0.9928089 -0.01708052 2.643471 -0.04654615 0.02273613 0.9986573 -0.5135315 0 0 0 1</matrix>
+            </node>
+          </node>
+          <node id="Hip_Left" name="Hip.Left" sid="Hip_Left" type="JOINT">
+            <matrix sid="transform">0.9937195 -0.111705 -0.001124203 -0.7594453 -0.1117031 -0.9935936 -0.01710422 0.2452157 7.8693e-4 0.01712237 -0.9998525 -0.03995454 0 0 0 1</matrix>
+            <node id="Knee_Left" name="Knee.Left" sid="Knee_Left" type="JOINT">
+              <matrix sid="transform">0.9984541 0.05523125 0.006221203 0 -0.05550267 0.9967121 0.05902712 4.057113 -0.002940608 -0.05928117 0.998237 7.45058e-9 0 0 0 1</matrix>
+              <node id="Ankle_Left" name="Ankle.Left" sid="Ankle_Left" type="JOINT">
+                <matrix sid="transform">0.9975958 -0.0688187 0.008168416 -2.38419e-7 0.01213286 0.05739032 -0.9982782 4.079439 0.06823137 0.995977 0.05808734 5.96046e-8 0 0 0 1</matrix>
+                <node id="Foot_Left" name="Foot.Left" sid="Foot_Left" type="JOINT">
+                  <matrix sid="transform">0.995217 0.06435443 -0.07349541 1.78814e-7 -0.07349741 0.9888695 -0.1293645 1.728935 0.06435264 0.1341475 0.9888697 -4.76837e-7 0 0 0 1</matrix>
+                </node>
+              </node>
+              <node id="TibAnt_Left" name="TibAnt.Left" sid="TibAnt_Left" type="JOINT">
+                <matrix sid="transform">0.998408 0.05633997 -0.002757075 -0.229062 -0.05638605 0.9954831 -0.07638301 1.509104 -0.001558808 0.07641686 0.9970748 0.1856748 0 0 0 1</matrix>
+              </node>
+              <node id="Gastroc_Left" name="Gastroc.Left" sid="Gastroc_Left" type="JOINT">
+                <matrix sid="transform">0.998408 0.0563402 -0.002757084 -0.2398676 -0.05638628 0.995483 -0.07638317 0.1537924 -0.001558826 0.07641702 0.9970747 -0.2870211 0 0 0 1</matrix>
+              </node>
+              <node id="FibularisLongus_Left" name="FibularisLongus.Left" sid="FibularisLongus_Left" type="JOINT">
+                <matrix sid="transform">0.9984081 0.0563397 -0.00275706 -0.3288273 -0.05638579 0.995483 -0.07638276 0.7854989 -0.001558788 0.0764166 0.9970748 -0.1101511 0 0 0 1</matrix>
+              </node>
+              <node id="ExtensorDigitorumLongus_Left" name="ExtensorDigitorumLongus.Left" sid="ExtensorDigitorumLongus_Left" type="JOINT">
+                <matrix sid="transform">0.998408 0.05634008 -0.002757076 -0.1087543 -0.05638617 0.995483 -0.07638303 3.00404 -0.001558817 0.07641689 0.9970748 0.0896818 0 0 0 1</matrix>
+              </node>
+              <node id="Soleus_Left" name="Soleus.Left" sid="Soleus_Left" type="JOINT">
+                <matrix sid="transform">0.998408 0.05634016 -0.002757088 -0.313535 -0.05638624 0.995483 -0.07638326 1.948659 -0.001558823 0.0764171 0.9970747 -0.3475862 0 0 0 1</matrix>
+              </node>
+            </node>
+            <node id="RecFem_Left" name="RecFem.Left" sid="RecFem_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117103 -7.69207e-4 -0.1044455 -0.1117071 0.9935938 -0.01712438 1.672142 -0.001148691 0.01710312 0.9998531 0.5091442 0 0 0 1</matrix>
+            </node>
+            <node id="VasMed_Left" name="VasMed.Left" sid="VasMed_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117102 -7.70152e-4 0.3133999 -0.111707 0.9935937 -0.01712426 2.684199 -0.001147735 0.0171031 0.9998531 0.3559055 0 0 0 1</matrix>
+            </node>
+            <node id="VasLat_Left" name="VasLat.Left" sid="VasLat_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117103 -7.70154e-4 -0.3352839 -0.1117071 0.9935938 -0.01712427 2.366113 -0.001147738 0.01710312 0.9998531 0.5095438 0 0 0 1</matrix>
+            </node>
+            <node id="BicFem_Left" name="BicFem.Left" sid="BicFem_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117102 -7.71337e-4 -0.2955181 -0.111707 0.9935937 -0.01712412 2.217406 -0.001146544 0.0171031 0.9998531 -0.436106 0 0 0 1</matrix>
+            </node>
+            <node id="Iliopsoas_Left" name="Iliopsoas.Left" sid="Iliopsoas_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117103 -7.69448e-4 0.1083471 -0.111707 0.9935938 -0.01712439 0.1952286 -0.001148452 0.01710316 0.9998531 0.3482087 0 0 0 1</matrix>
+            </node>
+            <node id="AdductorLongus_Left" name="AdductorLongus.Left" sid="AdductorLongus_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.11171 -7.74182e-4 0.3383701 -0.1117069 0.9935937 -0.01712382 0.5136681 -0.00114368 0.01710312 0.9998531 0.3231444 0 0 0 1</matrix>
+            </node>
+            <node id="Sartorius_Left" name="Sartorius.Left" sid="Sartorius_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117103 -7.704e-4 -0.1548467 -0.111707 0.9935938 -0.01712433 -0.2897335 -0.001147498 0.0171032 0.9998531 0.4595915 0 0 0 1</matrix>
+            </node>
+            <node id="GluteusMedius_Left" name="GluteusMedius.Left" sid="GluteusMedius_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117103 -7.69689e-4 -0.310486 -0.111707 0.9935938 -0.01712441 -0.9750233 -0.001148214 0.0171032 0.9998531 -0.5307121 0 0 0 1</matrix>
+            </node>
+            <node id="GluteusMaximus_Left" name="GluteusMaximus.Left" sid="GluteusMaximus_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117103 -7.71102e-4 -0.1008632 -0.1117071 0.9935938 -0.01712417 -0.04423714 -0.001146784 0.01710312 0.9998531 -1.060888 0 0 0 1</matrix>
+            </node>
+            <node id="Semitendinosus_Left" name="Semitendinosus.Left" sid="Semitendinosus_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117101 -7.71574e-4 -0.02829176 -0.1117069 0.9935937 -0.0171241 2.860227 -0.001146304 0.0171031 0.9998531 -0.5333528 0 0 0 1</matrix>
+            </node>
+            <node id="Semimembranosus_Left" name="Semimembranosus.Left" sid="Semimembranosus_Left" type="JOINT">
+              <matrix sid="transform">0.9937405 0.1117102 -7.71811e-4 0.2726482 -0.111707 0.9935937 -0.01712407 2.61452 -0.001146067 0.0171031 0.9998531 -0.5277246 0 0 0 1</matrix>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="Plane" name="Plane" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature_Plane-skin">
+          <skeleton>#RootBone</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material-material" target="#Material-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
