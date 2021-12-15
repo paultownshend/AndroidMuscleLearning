@@ -22,7 +22,7 @@ public class MenuHandler : MonoBehaviour {
         isClosed = true;
         var canvasrect = GameObject.FindObjectOfType<Canvas>().GetComponent<RectTransform>();
         dropdownMenu.transform.localPosition = new Vector3(-canvasrect.rect.width * 2, 0, 0);
-        ButtonText.text = "+";
+        ButtonText.text = "≡";
     }
 
     public void Open()
